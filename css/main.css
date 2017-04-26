@@ -1,4 +1,6 @@
-
+*{
+    outline: 1px solid rgba(255,0,0,0.4);
+}
 
 body {
   font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif;
