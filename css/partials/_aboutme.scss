@@ -1,0 +1,40 @@
+//---------------------ABOUT ME-------------------//
+* {
+    //outline: 1px solid rgba(255,0,0,0.4);
+    box-sizing: border-box;
+}
+
+
+#about-me {
+    z-index: 3;
+    background: #e3e1d2;
+    overflow: hidden;
+    position: relative;
+    
+    .about {
+        transform: translateY(40px);
+    }
+    .description {
+        padding-top: 50px;
+    }
+    img {
+        width: 450px;
+        padding: 10px;
+        z-index: 3;
+    }
+    .col-img {
+        width: 455px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: #ac5162;
+        border-radius: 5px;
+        z-index: 2;
+        margin-left: 65px;
+    }
+    span {
+            color: #000;
+            font-weight: bold;
+        
+        }
+    
+}
+

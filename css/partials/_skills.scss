@@ -1,0 +1,121 @@
+/************************SKILLS************************/
+#skills {
+    background-color: #efece2;
+    /*background: url(../../img/4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    */
+}
+.texto h3{
+    font-size: 17px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.texto h3:hover{
+    color: #F87060;
+}
+.pulse {
+    padding: 0;
+    display: inline-block;
+    i{
+        width: 20px;
+    }
+}
+
+img {border: none;}
+
+#skill { 
+	list-style:none; 
+	padding-top:30px;
+    padding-left: 150px;
+    padding-right: 110px;
+    width: 90%;
+}
+
+#skill li { 
+	margin-bottom:50px; 
+	background:#333; 
+	height:15px; 
+	border-radius:10px; 
+	border:2px solid #222;
+}
+#skill i {
+    font-size:30px;
+}
+#skill li em {
+    font-size:20px;
+	position:relative; 
+	bottom: 45px;
+    font-style: normal;
+}
+.animatable {
+  
+  /* initially hide animatable objects */
+  visibility: hidden;
+  /* initially pause animatable objects their animations */  
+  animation-play-state: paused; 
+}
+
+/* show objects being animated */
+.animated {
+  visibility: visible;
+  animation-fill-mode: both;
+  animation-play-state: running;
+}
+
+.expand { 
+	height:10px; 
+	margin:2px; 
+    border-radius:10px;
+	background:linear-gradient(to right, #f7a56c 0%,#e46885 100%); 
+	position:absolute;
+}
+
+.ps      { 
+    width:60%; 
+    -webkit-animation:ps 7s ease-out;     
+}
+.indd   { 
+    width:50%; 
+    -webkit-animation:indd 7s ease-out;   
+}
+.ai    { 
+    width:40%;  
+    -webkit-animation:ai 7s ease-out;       
+}
+.fla    { width:35%;  
+    -webkit-animation:fla 7s ease-out;       
+}
+.html   { width:38%;  
+    -webkit-animation:html 7s ease-out;       
+}
+.css    { width:20%;  
+    -webkit-animation:css 7s ease-out;        
+}
+
+
+@-webkit-keyframes ps         { 0%  { width:0px;} 100%{ width:60%;}  }
+@-webkit-keyframes indd       { 0%  { width:0px;} 100%{ width:50%;}  }
+@-webkit-keyframes ai         { 0%  { width:0px;} 100%{ width:40%;} }
+@-webkit-keyframes fla        { 0%  { width:0px;} 100%{ width:35%;} }
+@-webkit-keyframes html       { 0%  { width:0px;} 100%{ width:38%;} }
+@-webkit-keyframes css        { 0%  { width:0px;} 100%{ width:20%;}  }
+
+
+/*typescript styles... */
+@import url("//fonts.googleapis.com/css?family=Inconsolata:700");
+
+type{
+  font-family: Inconsolata, Source Code Pro, Consolas, monospace;
+  margin-left: calc(50vw - 6em);
+  font-size: 55px;
+  font-weight: bold;
+  color:white;
+  float:left;
+  padding:40px;
+  margin-bottom:20px;
+  margin-left:13%;
+}

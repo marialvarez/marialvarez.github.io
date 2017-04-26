@@ -1,0 +1,24 @@
+#portfolio {
+    background: #e3e1d2;
+}
+.dg-wrapper {
+    div {
+        transform: translateY(40px);
+        
+        button {
+            
+            display: inline-block;
+            background-color: #f0776c;
+            cursor: pointer;
+            color: white;
+            font-style: normal;
+        }
+        button:hover {
+            background-color: #95932e;
+            text-shadow: 1px 1px #333;
+            color:#fff;
+            font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif;
+            font-style: normal;
+        }
+    }
+}
