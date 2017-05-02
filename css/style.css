@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 .dg-wrapper{
-	width: 481px;
+	width: 480px;
 	height: 316px;
 	margin: 0 auto;
 	position: relative;
@@ -82,22 +82,35 @@
 @media (max-width: 991px) {
     .dg-container nav i{
 	
-	bottom: -20px !important;
+	    bottom: -20px !important;
 	
 }
     .dg-container {
-    padding-bottom: 150px !important;
+        padding-bottom: 150px !important;
 }
    
 }
 @media (max-width: 420px) {
     .dg-container nav i{
 	
-	bottom: -20px !important;
+	    bottom: -20px !important;
 	
-}
+    }
     .dg-container {
-    padding-bottom: 150px !important;
+        padding-bottom: 150px !important;
+    }
+    .dg-wrapper{
+	    width: 450px;
+    }
+    .dg-wrapper a {
+        width: 400px;
+    }
+   
 }
+@media (max-width: 350px) {
+    
+    .dg-wrapper a {
+        width: 290px;
+    }
    
 }
