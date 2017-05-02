@@ -88,9 +88,7 @@
     .dg-container {
     padding-bottom: 150px !important;
 }
-    .butoncito {
-        width: 100% !important;
-    }
+   
 }
 @media (max-width: 420px) {
     .dg-container nav i{
@@ -101,7 +99,5 @@
     .dg-container {
     padding-bottom: 150px !important;
 }
-    .butoncito {
-        width: 70% !important;
-    }
+   
 }
